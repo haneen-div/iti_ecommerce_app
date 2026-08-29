@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1020100556038",
+    "project_id": "iti-ecommerce-app-2026",
+    "storage_bucket": "iti-ecommerce-app-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020100556038:android:19e3e90c9113f49da0da87",
+        "android_client_info": {
+          "package_name": "com.example.iti_ecommerce_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3qcqS1AJMMTOEjTSV1W0B0BDBQekVsqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
