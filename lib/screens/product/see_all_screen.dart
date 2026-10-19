@@ -6,7 +6,7 @@ import '../../widgets/product_card.dart';
 import 'product_detail_screen.dart';
 
 class SeeAllScreen extends StatelessWidget {
-  final String type; // 'featured' or 'popular'
+  final String type; 
   const SeeAllScreen({super.key, required this.type});
 
   @override
