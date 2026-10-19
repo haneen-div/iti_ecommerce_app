@@ -4,8 +4,6 @@ import '../models/product_model.dart';
 
 class ProductProvider extends ChangeNotifier {
   bool isLoading = false;
-
-  // بيانات ثابتة (Static) — نفس أسماء وأسعار الديزاين بالظبط، وصورها ثابتة من النت
   final List<ProductModel> all = [
     ProductModel(
       id: 'p1',
