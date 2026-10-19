@@ -16,7 +16,6 @@ class _BannerCarouselState extends State<BannerCarousel> {
   final CarouselSliderController _controller = CarouselSliderController();
   int _current = 0;
 
-  // صور ثابتة حقيقية لملابس وأزياء (مش بحث عشوائي)
   final List<String> _images = [
     'https://images.unsplash.com/photo-1445205170230-053b83016050?w=800&q=80&auto=format&fit=crop',
     'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80&auto=format&fit=crop',
@@ -43,7 +42,7 @@ class _BannerCarouselState extends State<BannerCarousel> {
                   width: double.infinity,
                   placeholder: (_, __) => Container(color: Colors.grey.shade200),
                 ),
-                // تظليل خفيف يخلي النص الأبيض واضح فوق أي صورة
+      
                 Container(
                   decoration: BoxDecoration(
                     gradient: LinearGradient(
@@ -56,7 +55,7 @@ class _BannerCarouselState extends State<BannerCarousel> {
                     ),
                   ),
                 ),
-                // النص فوق الصورة
+      
                 const Padding(
                   padding: EdgeInsets.all(20),
                   child: Align(
